@@ -20,19 +20,10 @@ Overview
 типы данных;
 число пропусков;
 базовую статистику числовых признаков.
-
-Копировать код
 uv run eda-cli overview data/example.csv
-Report
-Команда генерирует полный EDA-отчёт в указанную папку.
-Отчёт включает:
-report.md;
-таблицы с пропусками и категориальными значениями;
-графики (гистограммы, корреляции и т.д.).
 
 # Базовый запуск:
 
-Копировать код
 uv run eda-cli report data/example.csv --out-dir reports_example
 Параметры команды report
 --title — заголовок отчёта (используется как # ... в report.md);
@@ -41,7 +32,6 @@ uv run eda-cli report data/example.csv --out-dir reports_example
 
 # Пример использования:
 
-Копировать код
 uv run eda-cli report data/example.csv \
   --out-dir reports_example \
   --title "HW03 EDA report" \
@@ -58,7 +48,6 @@ uv run eda-cli report data/example.csv \
 
 Запуск тестов:
 
-Копировать код
 uv run pytest -q
 Структура проекта
 Копировать код
