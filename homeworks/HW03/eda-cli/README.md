@@ -11,7 +11,6 @@ CLI-приложение на Python для Exploratory Data Analysis (EDA) CSV-
 Проект использует менеджер окружений **uv**.
 
 # Установка зависимостей:
-```bash
 uv sync
 
 # Команды CLI
@@ -22,7 +21,6 @@ Overview
 число пропусков;
 базовую статистику числовых признаков.
 
-bash
 Копировать код
 uv run eda-cli overview data/example.csv
 Report
@@ -34,7 +32,6 @@ report.md;
 
 # Базовый запуск:
 
-bash
 Копировать код
 uv run eda-cli report data/example.csv --out-dir reports_example
 Параметры команды report
@@ -44,7 +41,6 @@ uv run eda-cli report data/example.csv --out-dir reports_example
 
 # Пример использования:
 
-bash
 Копировать код
 uv run eda-cli report data/example.csv \
   --out-dir reports_example \
@@ -62,11 +58,9 @@ uv run eda-cli report data/example.csv \
 
 Запуск тестов:
 
-bash
 Копировать код
 uv run pytest -q
 Структура проекта
-bash
 Копировать код
 eda-cli/
   data/
