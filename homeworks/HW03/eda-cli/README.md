@@ -50,7 +50,6 @@ uv run eda-cli report data/example.csv \
 
 uv run pytest -q
 Структура проекта
-Копировать код
 eda-cli/
   data/
   src/eda_cli/
