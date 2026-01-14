@@ -1,0 +1,79 @@
+{
+  "S07-hw-dataset-01": {
+    "chosen_method": "KMeans",
+    "params": {
+      "k": 2,
+      "random_state": 42,
+      "n_init": 20
+    },
+    "selection_criterion": "maximize silhouette (DBSCAN: on non-noise points), choose DBSCAN if silhouette improves by > 0.02",
+    "metrics": {
+      "silhouette": 0.5216395622404242,
+      "davies_bouldin": 0.6853295219054457,
+      "calinski_harabasz": 11786.954622671532,
+      "noise_fraction": 0.0,
+      "n_clusters_eval": 2,
+      "n_points_eval": 12000
+    },
+    "dbscan_eps_candidates_from_k_distance_percentiles": [
+      0.233,
+      0.264,
+      0.293,
+      0.32,
+      0.35,
+      0.388,
+      0.442
+    ]
+  },
+  "S07-hw-dataset-02": {
+    "chosen_method": "DBSCAN",
+    "params": {
+      "eps": 0.096,
+      "min_samples": 12
+    },
+    "selection_criterion": "maximize silhouette (DBSCAN: on non-noise points), choose DBSCAN if silhouette improves by > 0.02",
+    "metrics": {
+      "silhouette": 0.7430350116709378,
+      "davies_bouldin": 0.3542638795237163,
+      "calinski_harabasz": 427.53421663744905,
+      "noise_fraction": 0.994875,
+      "n_clusters_eval": 3,
+      "n_points_eval": 41
+    },
+    "dbscan_eps_candidates_from_k_distance_percentiles": [
+      0.086,
+      0.096,
+      0.105,
+      0.115,
+      0.128,
+      0.147,
+      0.19
+    ]
+  },
+  "S07-hw-dataset-03": {
+    "chosen_method": "KMeans",
+    "params": {
+      "k": 3,
+      "random_state": 42,
+      "n_init": 20
+    },
+    "selection_criterion": "maximize silhouette (DBSCAN: on non-noise points), choose DBSCAN if silhouette improves by > 0.02",
+    "metrics": {
+      "silhouette": 0.3155447003782518,
+      "davies_bouldin": 1.1577256320598661,
+      "calinski_harabasz": 6957.162639510167,
+      "noise_fraction": 0.0,
+      "n_clusters_eval": 3,
+      "n_points_eval": 15000
+    },
+    "dbscan_eps_candidates_from_k_distance_percentiles": [
+      0.127,
+      0.153,
+      0.178,
+      0.205,
+      0.234,
+      0.27,
+      0.333
+    ]
+  }
+}
