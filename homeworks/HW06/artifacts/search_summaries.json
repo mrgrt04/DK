@@ -1,0 +1,30 @@
+{
+  "DecisionTreeClassifier": {
+    "best_params": {
+      "ccp_alpha": 0.0,
+      "max_depth": 8,
+      "min_samples_leaf": 5
+    },
+    "best_score": 0.7004111803925436,
+    "scoring": "f1_macro"
+  },
+  "RandomForestClassifier": {
+    "best_params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 150
+    },
+    "best_score": 0.8292083794493664,
+    "scoring": "f1_macro"
+  },
+  "GradientBoostingClassifier": {
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "best_score": 0.7828432834664255,
+    "scoring": "f1_macro"
+  }
+}
