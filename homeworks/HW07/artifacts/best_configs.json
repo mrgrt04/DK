@@ -8,8 +8,8 @@
     },
     "selection_criterion": "maximize silhouette (DBSCAN: on non-noise points), choose DBSCAN if silhouette improves by > 0.02",
     "metrics": {
-      "silhouette": 0.5216395622404242,
-      "davies_bouldin": 0.6853295219054457,
+      "silhouette": 0.5216395622404243,
+      "davies_bouldin": 0.6853295219054456,
       "calinski_harabasz": 11786.954622671532,
       "noise_fraction": 0.0,
       "n_clusters_eval": 2,
@@ -33,8 +33,8 @@
     },
     "selection_criterion": "maximize silhouette (DBSCAN: on non-noise points), choose DBSCAN if silhouette improves by > 0.02",
     "metrics": {
-      "silhouette": 0.7430350116709378,
-      "davies_bouldin": 0.3542638795237163,
+      "silhouette": 0.7430350116709382,
+      "davies_bouldin": 0.354263879523714,
       "calinski_harabasz": 427.53421663744905,
       "noise_fraction": 0.994875,
       "n_clusters_eval": 3,
@@ -59,7 +59,7 @@
     },
     "selection_criterion": "maximize silhouette (DBSCAN: on non-noise points), choose DBSCAN if silhouette improves by > 0.02",
     "metrics": {
-      "silhouette": 0.3155447003782518,
+      "silhouette": 0.31554470037825183,
       "davies_bouldin": 1.1577256320598661,
       "calinski_harabasz": 6957.162639510167,
       "noise_fraction": 0.0,
